@@ -32,6 +32,4 @@ group :slow_test do
   gem 'html-proofer', '2.1.0'
 end
 
-group :jekyll_plugins do
-  gem "jekyll-translate"
 end
