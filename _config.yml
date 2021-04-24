@@ -681,4 +681,12 @@ defaults:
 sass:
   style: compressed
 
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
 theme: jekyll-theme-merlot
