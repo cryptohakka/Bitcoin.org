@@ -688,6 +688,6 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
-  - jekyll-translate-tag
+  - jekyll-translate
 
 theme: jekyll-theme-merlot
