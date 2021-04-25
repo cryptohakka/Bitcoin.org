@@ -2,14 +2,14 @@
 This file is licensed under the MIT License (MIT) available on
 http://opensource.org/licenses/MIT.
 {% endcomment %}
-
+{% raw %}
 <div class="footer-bottom">
   <div class="container">
     <div class="row footer-bottom-row">
       <div class="footerlicense">© Bitcoin Project 2009-{{ site.time | date: '%Y' }} {% translate footer layout %}</div>
       <div class="row footer-status-block">
         <a href="/en/alerts" class="statusmenu{% if site.STATUS == 1 %} alert{% endif %}">{% translate network-status layout %}</a>
-        {% include layout/base/head-language-dropdown.html %} 
+        {% include layout/base/head-language-dropdown.html %}
         <div id="footer-langselect" class="footer-langselect langselect">
           <label for="select-input-footer" class="center-select">
             <select class="center-select__input" onchange="window.location=this.value; ">
@@ -30,3 +30,4 @@ http://opensource.org/licenses/MIT.
     </div>
   </div>
 </div>
+{% endraw %}

@@ -3,7 +3,7 @@
 This file is licensed under the MIT License (MIT) available on
 http://opensource.org/licenses/MIT.
 {% endcomment %}
-
+{% raw %}
 {% if page.id contains 'desktop' or  page.id contains 'mobile'%}
    {% assign walletMargin = "55px" %}
 {% else %}
@@ -71,3 +71,4 @@ http://opensource.org/licenses/MIT.
   {% endfor %}
   </ul>
 </div>
+{% endraw %}

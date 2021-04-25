@@ -2,7 +2,7 @@
 This file is licensed under the MIT License (MIT) available on
 http://opensource.org/licenses/MIT.
 {% endcomment %}
-
+{% raw %}
 <div class="breadcrumbs">
   <div class="container">
     {% for crumb in page.breadcrumbs %} {% if forloop.last %} {% case crumb %} {% when "GLOSSARY_ENTRY_TITLE" %} {% comment %}
@@ -41,3 +41,4 @@ http://opensource.org/licenses/MIT.
     %}
   </div>
 </div>
+{% endraw %}

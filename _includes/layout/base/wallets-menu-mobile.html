@@ -2,7 +2,7 @@
 This file is licensed under the MIT License (MIT) available on
 http://opensource.org/licenses/MIT.
 {% endcomment %}
-
+{% raw %}
 <div class="walletmenu-mobile" hidden>
   {% assign platformsByPlatform = site.platforms | group_by: "platform" %}
   <div class="accordion accordion-platform">
@@ -71,3 +71,4 @@ http://opensource.org/licenses/MIT.
 
     {% endfor %}
 </div>
+{% endraw %}

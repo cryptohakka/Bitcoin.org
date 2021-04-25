@@ -2,7 +2,7 @@
 This file is licensed under the MIT License (MIT) available on
 http://opensource.org/licenses/MIT.
 {% endcomment %}
-
+{% raw %}
 {% if page.id == "choose-your-wallet" or page.id == 'wallets-desktop-desktop' or page.id == 'wallets-mobile-mobile' %}
   {% assign walletClass = "" | append: "is-hidden-mobile" %}
 {% else %}
@@ -120,3 +120,4 @@ http://opensource.org/licenses/MIT.
     </div>
   </div>
 </div>
+{% endraw %}
