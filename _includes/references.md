@@ -245,7 +245,9 @@ http://opensource.org/licenses/MIT.
 {% comment %}<!-- Other internal site links; alphabetical order -->{% endcomment %}
 [bandwidth sharing guide]: /en/full-node
 [bcc contribute]: /en/bitcoin-core/contribute/
+{% raw %}
 [bcc contribute code]: /{{page.lang}}/{% translate development url %}
+{% endraw %}
 [bcc contribute documentation]: /en/bitcoin-core/contribute/documentation
 [bcc contribute issues]: /en/bitcoin-core/contribute/issues
 [bcc contribute support]: /en/bitcoin-core/contribute/support
