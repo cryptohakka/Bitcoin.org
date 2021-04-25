@@ -1,6 +1,6 @@
 {% comment %} This file is licensed under the MIT License (MIT) available on http://opensource.org/licenses/MIT. {% endcomment
 %}
-
+{% raw %}
 <div class="mainhero">
   <div class="container hero-container">
     <p class="mainsummary">{% translate listintro %}</p>
@@ -52,19 +52,19 @@
       <div>
         <p class="maindesc-text">{% translate desc %}</p>
         <ul class="mainlist">
-          
+
             <li class="mainlist-item">
               <img src="/img/icons/main_ico_instant.svg?{{site.time | date: '%s'}}" alt="Icon">
               <p>{% translate list1 %}</p>
             </li>
-          
-          
+
+
             <li class="mainlist-item">
               <img src="/img/icons/main_ico_worldwide.svg?{{site.time | date: '%s'}}" alt="Icon">
               <p>{% translate list2 %}</p>
             </li>
-          
-          
+
+
             <li class="mainlist-item">
               <img src="/img/icons/main_ico_lowfee.svg?{{site.time | date: '%s'}}" alt="Icon">
               <p>{% translate list3 %}</p>
@@ -88,3 +88,4 @@
 </div>
 <div class="modal-overlay closed">
 </div>
+{% endraw %}
