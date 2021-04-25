@@ -2,7 +2,7 @@
 This file is licensed under the MIT License (MIT) available on
 http://opensource.org/licenses/MIT.
 {% endcomment %}
-
+{% raw %}
 <ul id="menusimple" class="menusimple menumain" onclick="mobileMenuHover(event);" ontouchstart="mobileMenuHover(event);">
   <li><a class="is-expand">{% translate menu-intro layout %}</a>
     <ul>
@@ -63,3 +63,4 @@ http://opensource.org/licenses/MIT.
   </li>
   <li{% if page.id == 'faq' %} class="active"{% endif %}><a href="/{{ page.lang }}/{% translate faq url %}">{% translate menu-faq layout %}</a></li>
 </ul>
+{% endraw %}
